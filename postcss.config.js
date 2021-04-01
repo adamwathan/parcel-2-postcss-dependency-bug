@@ -8,6 +8,7 @@ module.exports = {
         parent: result.opts.from,
         file: path.resolve('./dependency.txt'),
       })
+
       root.walkDecls((d) => {
         if (d.prop === 'content') {
           d.value = `"${Date.now()}"`
