@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel serve ./src/index.html",
-    "dev:postcss": "postcss ./src/styles.css -o out.css -w",
-    "build": "parcel build ./src/index.html"
+    "build:postcss": "postcss ./src/styles.css -o out.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.632",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1"
   }
